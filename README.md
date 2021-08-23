@@ -1,5 +1,5 @@
 # Kubernetes Introduction
-
+![](k8.png)
 ## What is k8s?
 * Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
@@ -34,9 +34,24 @@
   - Hybrid and Multiclouds : Both solutions are addressed by Kubernetes Federation. Multiple clusters — one for each cloud or on-premise data center — are created that are managed by the Federation. The Federation synchronizes computing resources, and even allows cross-cluster discovery: virtually any pod can communicate with a pod in another cluster without knowing the infrastructure. 
 
 ## When not to use K8s?
+* Kubernetes is not a traditional, all-inclusive PaaS (Platform as a Service) system. Since Kubernetes operates at the container level rather than at the hardware level, it provides some generally applicable features common to PaaS offerings, such as deployment, scaling, load balancing, and lets users integrate their logging, monitoring, and alerting solutions. However, Kubernetes is not monolithic, and these default solutions are optional and pluggable. Kubernetes provides the building blocks for building developer platforms, but preserves user choice and flexibility where it is important.
 
-what are the competitors of K8
-what are managed services for K8
-what is the def between K8 managed service and non managed K8 services 
-create a new repo on git hub
-create a Diagram for K8 cluster
+## What are the competitors of K8?
+* NetSuite.
+* SAP ERP.
+* Acumatica.
+* SAP Business One.
+* Sage Intacct.
+* QuickBooks Desktop Enterprise.
+* Oracle PeopleSoft.
+* FinancialForce PSA.
+
+## What are managed services for K8?
+* Managed Kubernetes is when third-party providers take over responsibility for some or all of the work necessary for the successful set-up and operation of K8s. Depending on the vendor, “managed” can refer to anything from dedicated support, to hosting with pre-configured environments, to full hosting and operation.
+  
+## what is the difference between K8 managed service and non managed K8 services?
+* 
+
+## K8s cluster diagram
+
+![](k8_cluster.png)
